@@ -6,7 +6,7 @@ on:
         branches:
             - master
         paths:
-            - 'container/**'
+            - "container/**"
 
 defaults:
     run:
