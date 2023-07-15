@@ -6,7 +6,7 @@ on:
         branches:
             - master
         paths:
-            - "container/**/**.js"
+            - "container/**"
 
 defaults:
     run:
