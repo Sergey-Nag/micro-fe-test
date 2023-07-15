@@ -1,11 +1,7 @@
 name: deploy-container-2
 
-on:
-    push:
-        branches:
-            - master
-        paths:
-            - "container/**"
+on: 
+    workflow_dispatch:
 
 defaults:
     run:
